@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/first.css';
+//import './styles/mediaquery.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { navIcons } from './Data';
@@ -7,10 +8,10 @@ import { navIcons } from './Data';
 const First = () => {
 
     return (
-        <div>
+        <div className='main'>
             <nav className="navbar navbar-expand-lg navbar-fixed-top">
                 <div className="container-fluid">
-                    <a className="navbar-brand mylogo" href="#">
+                    <a className="navbar-brand mylogo" href="https://github.com/Adarsha186/Portfolio">
                         Portfolio.
                     </a>
                     <button

@@ -65,4 +65,37 @@
   padding-bottom: 2.5rem;
   padding-left: 0;
 }
+
+@media (max-width: 576px) {
+  body {
+    width: auto;
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling */
+  }
+  .second {
+    padding: 2rem 0rem 2rem 0rem;
+  }
+  .skills {
+    border-radius: 3%;
+  }
+  .skills .header {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .svg {
+    width: 4rem;
+    height: 4rem;
+  }
+  .logos {
+    -ms-grid-columns: (minmax(5rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    padding: 1.5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ls span {
+    font-size: 0.875rem;
+  }
+}
 /*# sourceMappingURL=second.css.map */

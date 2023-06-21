@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import First from './First'
 import Second from './Second';
 import Third from './Third';
