@@ -1,0 +1,68 @@
+/* Skills section styles */
+.skills {
+  background-color: #594545;
+  -webkit-box-shadow: 1rem 1rem 1rem #413232;
+          box-shadow: 1rem 1rem 1rem #413232;
+  padding: 5rem;
+  text-align: center;
+  border-radius: 0 5% 5% 0;
+}
+
+.skills .header {
+  font-weight: bolder;
+  font-size: 3.5rem;
+  letter-spacing: 0.5rem;
+  text-align: right;
+  color: #ffffff;
+}
+
+.logos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(9rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  padding: 3rem;
+  grid-gap: 1rem;
+}
+
+.ls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.svg {
+  width: 6rem;
+  height: 6rem;
+  margin-bottom: 0.625rem;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  /* Add a transition for smooth size increase on hover */
+}
+
+.ls:hover .svg {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.ls span {
+  font-size: 1rem;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.second {
+  padding: 2rem;
+  padding-bottom: 2.5rem;
+  padding-left: 0;
+}
+/*# sourceMappingURL=second.css.map */

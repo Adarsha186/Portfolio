@@ -1,0 +1,94 @@
+.first {
+  width: 100%;
+  padding: 0rem 2.5rem 2rem 2rem;
+}
+
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #FEFBF6;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  padding: 0.625rem 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+  -webkit-box-shadow: 0 1.5rem 1.8rem rgba(75, 73, 73, 0.2);
+          box-shadow: 0 1.5rem 1.8rem rgba(75, 73, 73, 0.2);
+}
+
+.navbar:hover {
+  -webkit-box-shadow: 0 0.5rem 0.8rem rgba(75, 73, 73, 0.2);
+          box-shadow: 0 0.5rem 0.8rem rgba(75, 73, 73, 0.2);
+}
+
+.navbar-brand {
+  font-family: 'Geologica', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+  color: black;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav-item {
+  margin-left: 0.625rem;
+}
+
+.nav-link {
+  color: black !important;
+  font-size: 1.2rem !important;
+  font-weight: 500;
+  text-decoration: none;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  text-shadow: 0 0.0625rem 0.125rem black;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+/* Intro section styles */
+.intro {
+  background-color: #F05454;
+  -webkit-box-shadow: 0 1rem 1rem #ea4444;
+          box-shadow: 0 1rem 1rem #ea4444;
+  padding: 8rem;
+  color: white;
+  text-align: center;
+  border-radius: 0 0 5% 5%;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+#name {
+  font-weight: bolder;
+  font-size: 4.5rem;
+  color: #3c0101;
+  letter-spacing: 0.5rem;
+}
+
+.intro p {
+  font-size: 1.5rem;
+  color: white;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=first.css.map */

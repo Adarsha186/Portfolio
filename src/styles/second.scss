@@ -1,0 +1,54 @@
+/* Skills section styles */
+.skills {
+    background-color: #594545;
+    box-shadow: 1rem 1rem 1rem #413232;
+    padding: 5rem;
+    text-align: center;
+    border-radius: 0 5% 5% 0;
+}
+
+.skills .header {
+    font-weight: bolder;
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
+    text-align: right;
+    color: #ffffff;
+
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    padding: 3rem;
+    grid-gap: 1rem;
+}
+
+.ls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.svg {
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 0.625rem;
+    transition: transform 0.3s;
+    /* Add a transition for smooth size increase on hover */
+}
+
+.ls:hover .svg {
+    transform: scale(1.2);
+}
+
+.ls span {
+    font-size: 1rem;
+    padding: 1rem;
+    color: #ffffff;
+}
+
+.second {
+    padding: 2rem;
+    padding-bottom: 2.5rem;
+    padding-left: 0;
+}
