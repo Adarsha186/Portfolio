@@ -1,10 +1,16 @@
-/* Skills section styles */
+.second {
+    padding: 2rem;
+    padding-bottom: 2.5rem;
+    padding-left: 0;
+}
+
 .skills {
     background-color: #594545;
     box-shadow: 1rem 1rem 1rem #413232;
     padding: 5rem;
     text-align: center;
     border-radius: 0 5% 5% 0;
+    animation: fadeInLeft 4s ease-in-out;
 }
 
 .skills .header {
@@ -34,7 +40,6 @@
     height: 6rem;
     margin-bottom: 0.625rem;
     transition: transform 0.3s;
-    /* Add a transition for smooth size increase on hover */
 }
 
 .ls:hover .svg {
@@ -47,17 +52,10 @@
     color: #ffffff;
 }
 
-.second {
-    padding: 2rem;
-    padding-bottom: 2.5rem;
-    padding-left: 0;
-}
-
 @media (max-width: 576px) {
     body {
         width: auto;
         overflow-x: hidden;
-        /* Prevent horizontal scrolling */
     }
 
     .second {
@@ -65,7 +63,7 @@
     }
 
     .skills {
-        border-radius: 3%;
+        border-radius: 0 0 3% 3%;
     }
 
     .skills .header {
@@ -86,5 +84,17 @@
 
     .ls span {
         font-size: 0.875rem;
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-2rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
     }
 }

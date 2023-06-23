@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles/second.css';
-//import './styles/mediaquery.css';
 import { icons } from './Data';
 
 const Second = () => {

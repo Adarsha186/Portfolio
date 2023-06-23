@@ -1,4 +1,9 @@
-/* Skills section styles */
+.second {
+  padding: 2rem;
+  padding-bottom: 2.5rem;
+  padding-left: 0;
+}
+
 .skills {
   background-color: #594545;
   -webkit-box-shadow: 1rem 1rem 1rem #413232;
@@ -6,6 +11,8 @@
   padding: 5rem;
   text-align: center;
   border-radius: 0 5% 5% 0;
+  -webkit-animation: fadeInLeft 4s ease-in-out;
+          animation: fadeInLeft 4s ease-in-out;
 }
 
 .skills .header {
@@ -46,7 +53,6 @@
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
-  /* Add a transition for smooth size increase on hover */
 }
 
 .ls:hover .svg {
@@ -60,23 +66,16 @@
   color: #ffffff;
 }
 
-.second {
-  padding: 2rem;
-  padding-bottom: 2.5rem;
-  padding-left: 0;
-}
-
 @media (max-width: 576px) {
   body {
     width: auto;
     overflow-x: hidden;
-    /* Prevent horizontal scrolling */
   }
   .second {
     padding: 2rem 0rem 2rem 0rem;
   }
   .skills {
-    border-radius: 3%;
+    border-radius: 0 0 3% 3%;
   }
   .skills .header {
     font-size: 2.5rem;
@@ -96,6 +95,32 @@
   }
   .ls span {
     font-size: 0.875rem;
+  }
+}
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-2rem);
+            transform: translateX(-2rem);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-2rem);
+            transform: translateX(-2rem);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 /*# sourceMappingURL=second.css.map */

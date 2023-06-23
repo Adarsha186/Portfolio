@@ -41,11 +41,11 @@ const icons = [
     { icon: <HtmlIcon />, name: 'HTML' },
     { icon: <CssIcon />, name: 'CSS' },
     { icon: <BootstrapIcon />, name: 'Bootstrap' },
+    { icon: <ScssIcon />, name: 'SCSS' },
     { icon: <JsIcon />, name: 'JavaScript' },
-    { icon: <MySqlIcon />, name: 'MySQL' },
     { icon: <ReactIcon />, name: 'React.js' },
     { icon: <NodeJsIcon />, name: 'Node.js' },
-    { icon: <ScssIcon />, name: 'SCSS' },
+    { icon: <MySqlIcon />, name: 'MySQL' },
     { icon: <SpringIcon />, name: 'Spring' },
     { icon: <GitIcon />, name: 'Git' },
 ];

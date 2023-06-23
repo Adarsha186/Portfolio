@@ -1,19 +1,19 @@
-.third {
+.fourth {
   padding: 2rem;
   padding-bottom: 2.5rem;
-  padding-right: 0;
+  padding-left: 0;
 }
 
-.projects {
-  background-color: #393E46;
-  -webkit-box-shadow: 0rem 1rem 1rem #393E46;
-          box-shadow: 0rem 1rem 1rem #393E46;
-  border-radius: 5% 0 0 5%;
+.education {
+  background-color: #810CA8;
+  -webkit-box-shadow: 0rem 1rem 1rem #810CA8;
+          box-shadow: 0rem 1rem 1rem #810CA8;
+  border-radius: 0 5% 5% 0;
   padding: 5rem;
   color: #FCFAF1;
 }
 
-.projects .header {
+.education .header {
   font-weight: bolder;
   font-size: 3.5rem;
   letter-spacing: 0.5rem;
@@ -21,16 +21,16 @@
   text-align: left;
 }
 
-.project-grid {
-  padding: 2rem;
+.education-details {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(18rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  -ms-grid-columns: (minmax(30rem, 2fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 2fr));
   grid-gap: 1.875rem;
+  padding: 2rem;
 }
 
-.project {
+.education-item {
   background-color: #ffffff;
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
@@ -48,43 +48,33 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border: 2px solid #dddddd;
 }
 
-.project:hover {
+.education-item:hover {
   -webkit-box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
           box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
   -webkit-transform: translateY(-0.25rem);
           transform: translateY(-0.25rem);
 }
 
-.project h3 {
-  font-size: 1.5rem;
+.education-item h2 {
   font-weight: 500;
-  color: #333333;
+  color: black;
   margin-bottom: 0.625rem;
 }
 
-.project p {
-  font-size: 1rem;
-  color: #666666;
-  margin-bottom: 1.25rem;
+.education-item h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #232323;
+  margin-bottom: 0.625rem;
 }
 
-.project a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0.5rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  margin-top: auto;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+.education-item p {
+  font-size: 1.2rem;
+  color: #343434;
+  margin-bottom: 1.25rem;
 }
 
 @media (max-width: 576px) {
@@ -92,18 +82,18 @@
     width: auto;
     overflow-x: hidden;
   }
-  .third {
+  .fourth {
     padding: 2rem 0rem 2rem 0rem;
   }
-  .projects {
+  .education {
     padding: 3rem 1.5rem;
     border-radius: 0 0 3% 3%;
   }
-  .projects .header {
+  .education .header {
     font-size: 2.5rem;
     text-align: center;
   }
-  .project-grid {
+  .education-details {
     padding: 1.5rem;
     display: -ms-grid;
     display: grid;
@@ -111,16 +101,16 @@
         grid-template-columns: 1fr;
     grid-gap: 1.25rem;
   }
-  .project {
+  .education-item {
     padding: 1rem;
     border-radius: 5%;
   }
-  .project h3 {
+  .education-item h3 {
     font-size: 1.25rem;
   }
-  .project p {
+  .education-item p {
     font-size: 0.875rem;
     margin-bottom: 1rem;
   }
 }
-/*# sourceMappingURL=third.css.map */
+/*# sourceMappingURL=fourth.css.map */

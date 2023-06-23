@@ -14,6 +14,11 @@ const Third = () => {
             link: "https://github.com/Adarsha186/Employee-Management-System"
         },
         {
+            title: "Sorting Using Spring",
+            desc: "As my first hands on experience in Java Spring Framework, I developed a program that implements sorting algorithms utilizing Spring's dependency injection. I learned about Inversion of Control (IoC) and the ApplicationContext and added relevant annotations such as @Component or @Service, for instantiation and wiring of these components.",
+            link: "https://github.com/Adarsha186/Sorting_App_Launcher"
+        },
+        {
             title: "Disease Spread Prediction",
             desc: "The project aims to predict weekly dengue cases in the city. Through analysis and imputation of 548 missing values out of 1456 rows, the skew was reduced, resulting in 81% prediction accuracy.",
             link: "https://github.com/Adarsha186/projects"

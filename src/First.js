@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles/first.css';
-//import './styles/mediaquery.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { navIcons } from './Data';
